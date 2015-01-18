@@ -5,6 +5,36 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B332CB801A6BF22200D8D1F3"
+               BuildableName = "72-AdvancedSegues.app"
+               BlueprintName = "72-AdvancedSegues"
+               ReferencedContainer = "container:72-AdvancedSegues.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B332CB951A6BF22300D8D1F3"
+               BuildableName = "72-AdvancedSeguesTests.xctest"
+               BlueprintName = "72-AdvancedSeguesTests"
+               ReferencedContainer = "container:72-AdvancedSegues.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -12,7 +42,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B332CB951A6BF22300D8D1F3"
+               BuildableName = "72-AdvancedSeguesTests.xctest"
+               BlueprintName = "72-AdvancedSeguesTests"
+               ReferencedContainer = "container:72-AdvancedSegues.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B332CB801A6BF22200D8D1F3"
+            BuildableName = "72-AdvancedSegues.app"
+            BlueprintName = "72-AdvancedSegues"
+            ReferencedContainer = "container:72-AdvancedSegues.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -23,6 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B332CB801A6BF22200D8D1F3"
+            BuildableName = "72-AdvancedSegues.app"
+            BlueprintName = "72-AdvancedSegues"
+            ReferencedContainer = "container:72-AdvancedSegues.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -32,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B332CB801A6BF22200D8D1F3"
+            BuildableName = "72-AdvancedSegues.app"
+            BlueprintName = "72-AdvancedSegues"
+            ReferencedContainer = "container:72-AdvancedSegues.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

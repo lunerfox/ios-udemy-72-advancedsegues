@@ -13,6 +13,7 @@
 		B332CB8E1A6BF22200D8D1F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B332CB8D1A6BF22200D8D1F3 /* Images.xcassets */; };
 		B332CB911A6BF22200D8D1F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B332CB8F1A6BF22200D8D1F3 /* LaunchScreen.xib */; };
 		B332CB9D1A6BF22300D8D1F3 /* _2_AdvancedSeguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332CB9C1A6BF22300D8D1F3 /* _2_AdvancedSeguesTests.swift */; };
+		B332CBA71A6BF3B200D8D1F3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332CBA61A6BF3B200D8D1F3 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B332CB961A6BF22300D8D1F3 /* 72-AdvancedSeguesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "72-AdvancedSeguesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B332CB9B1A6BF22300D8D1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B332CB9C1A6BF22300D8D1F3 /* _2_AdvancedSeguesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2_AdvancedSeguesTests.swift; sourceTree = "<group>"; };
+		B332CBA61A6BF3B200D8D1F3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				B332CB861A6BF22200D8D1F3 /* AppDelegate.swift */,
 				B332CB881A6BF22200D8D1F3 /* ViewController.swift */,
+				B332CBA61A6BF3B200D8D1F3 /* TableViewController.swift */,
 				B332CB8A1A6BF22200D8D1F3 /* Main.storyboard */,
 				B332CB8D1A6BF22200D8D1F3 /* Images.xcassets */,
 				B332CB8F1A6BF22200D8D1F3 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B332CB891A6BF22200D8D1F3 /* ViewController.swift in Sources */,
+				B332CBA71A6BF3B200D8D1F3 /* TableViewController.swift in Sources */,
 				B332CB871A6BF22200D8D1F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
